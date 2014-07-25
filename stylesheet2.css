@@ -13,7 +13,7 @@ body
 h1
 {
 	color: #FFFFFF;
-	font-family: 'Russo One', sans-serif;
+	font-family: 'Audiowide', cursive;
 }
 header hgroup h1
 {
@@ -59,10 +59,14 @@ nav ul li a
 	box-shadow: 0px 0px 20px rgba(0,0,0,50);
 	background-image: url('http://www.pulsarmedia.eu/data/media/10/Cube%20Room%201600.jpg');
 }
+#Foto
+{
+	border-radius: 50px;
+}
 #miCanvas
 {
 	position: absolute;
-	bottom: 0px;
+	bottom: -100px;
 	left: 0px;
 	
 }
