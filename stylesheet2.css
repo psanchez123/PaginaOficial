@@ -4,6 +4,14 @@ body
 	
 	font-family:'Helvetica', Arial;
 }
+header hgroup h2
+{
+	color: #FFFFFF
+}
+#inicioWeb
+{
+	color: #FFFFFF
+}
 #contenido
 {
 	width:960px;
