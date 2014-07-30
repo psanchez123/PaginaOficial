@@ -15,7 +15,7 @@ function dibujaFooter(canvas,contexto)
 	contexto.moveTo(0,0);
 	contexto.quadraticCurveTo(0,-50,canvas.width-100,canvas.height-50)
 	contexto.fill();
-	border: solid;
+	
 
 
 }
