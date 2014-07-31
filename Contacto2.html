@@ -8,14 +8,14 @@
 		<script src="scriptPrincipal2.js"></script>
 	</head>
 	<body>
-		<left> <embed src=http://flash-clocks.com/free-flash-clocks-blog-topics/free-flash-clock-34.swf style="position: fixed; top: 0px; left: 0px;" alt=""  width=200 height=200 wmode=transparent type=application/x-shockwave-flash></embed></left>
+		<left> <embed src=http://flash-clocks.com/free-flash-clocks-blog-topics/free-flash-clock-34.swf style="position: fixed; top: 0px; right: 0px;" alt=""  width=200 height=200 wmode=transparent type=application/x-shockwave-flash></embed></left>
 		<div id='contenido'>
 			<header>
 				<hgroup>
-					<h1>Bienvenido a la página de Paul Sánchez</h1>
+					<h1>Paul Martín Sánchez Pulido</h1>
 					
 				</hgroup>
-				<nav>
+				<nav id="navigation">
 					<ul><!--lista ordenada-->
 						<li><a href='index.html'>Home</a></li>
 						<li><a href='Tutoriales2.html'>Perfil</a></li>
@@ -27,21 +27,22 @@
 			<section>
 				<div id='textoPr'> <!--Para no colocar estilos al section-->
 					<hgroup>
-						<h1>Tarea</h1>
-
+						<div id="mensajeB">
+						<p>Assignment</p>
+						</div>
 					</hgroup>
 					<form>
-						<label for='nombre'>Integrantes:</label>
+						<label for='nombre'>Integrants:</label>
 						<input type='text' id='nombre' placeholder='Escribe tu nombre' required>
 						<label for='correo'>Emails:</label>
 						<input type='email' id='correo'placeholder='Escribe tu email'required>
-						<label for='fecha'>Fecha de Inicio:</label>
+						<label for='fecha'>Starts:</label>
 						<input type='date' id='fecha'>
-						<label for='fecha'>Fecha de Entrega:</label>
+						<label for='fecha'>Ends:</label>
 						<input type='date' id='fecha'>
-						<label for='calificacion'>Calificacion:</label>
+						<label for='calificacion'>Calification:</label>
 						<input type='edad' id='calificacion' min='0' max='20' value='0' required>
-						<input type='submit' value='Enviar Datos' id='btnSubmit'>
+						<input type='submit' value='Send Homework' id='btnSubmit'>
 					</form>
 				</div>
 			</section>

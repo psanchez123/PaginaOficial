@@ -1,0 +1,20 @@
+
+html { 
+  background: url(http://www.pulsarmedia.eu/data/media/14/Goodbye_By_Waltervermeij_1920X1200.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#inicioWeb
+{
+	color: #FFFFFF;
+	width:960px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Audiowide', italic;
+}
+input
+{
+	cursor: pointer;
+}

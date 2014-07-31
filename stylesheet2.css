@@ -4,13 +4,7 @@ body
 	
 	font-family:'Helvetica', Arial;
 }
-header hgroup h2
-{
-	color: #FFFFFF
-}
-#inicioWeb
-{
-	color: #FFFFFF
+
 }
 #contenido
 {
@@ -22,14 +16,17 @@ h1
 {
 	color: #FFFFFF;
 	font-family: 'Audiowide', italic;
+	text-align: left;
 }
-input
+h2
 {
-	cursor: pointer;
+	color: #1d1d1d;
 }
+
 
 header hgroup h1 
 {
+	text-align: center;
 	border-bottom: solid;
 	padding-bottom: 20px;
 	border-width: 1px;
@@ -38,9 +35,10 @@ header hgroup h1
 }
 nav ul li
 {
+	text-align: center;
 	font-weight: bold;
 	display:inline-block;
-	margin-right:50px;
+	margin-right:100px;
 	color:#1d1d1d;
 	cursor: pointer;
 	padding:5px;
@@ -52,6 +50,7 @@ nav ul li
 }
 nav ul li:hover
 {
+	text-align: center;
 	background-color: #7BC8A4;
 	color:#FFF;
 	border-radius: 5px;
@@ -67,12 +66,13 @@ nav ul li a
 	height: 300px;
 	background-color: #1d1d1d;
 	color: #FFC65D;
+	font-weight: bold;
 	margin: 0 auto;
 	text-align: left;
 	border-radius: 20px;
-	padding: 20px;
-	box-shadow: 0px 0px 20px rgba(0,0,0,50);
-	background-image: url('http://www.pulsarmedia.eu/data/media/10/Cube%20Room%201600.jpg');
+	padding: 100px;
+	box-shadow: 10px 10px 20px rgba(50,0,0,50);
+	background-color: #FFFFFF;
 }
 
 #miCanvas
@@ -88,6 +88,7 @@ meter
 	color: #7BC8A4;
 	margin-left: 20px;
 	width: 200px;
+
 }
 label
 {
@@ -119,4 +120,22 @@ label
 	border-radius:10px;
 	height: 15px;
 	width: 10px;
+}
+#navigation {
+
+text-align: center;
+}
+
+#mensajeB
+{
+	text-align: left;
+	color: #1d1d1d;
+	font-variant: small-caps;
+	font-size: 120%
+
+}
+#fotoPerfil
+{
+	margin-left: 50px;
+	text-align: center;
 }
