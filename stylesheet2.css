@@ -60,6 +60,7 @@ nav ul li a
 {
 	text-decoration: none;
 }
+
 #textoPr
 {
 	width: 600px;
@@ -152,4 +153,8 @@ text-align: center;
 	0.4em -0.3em 0.1em #006 ;
 	text-align: center;
 	font-weight: bold
+}
+aside
+{
+	text-align: center;
 }
