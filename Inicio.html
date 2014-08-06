@@ -1,30 +1,62 @@
-<!DOCTYPE html>
-<html lang="es">
-
+<!DOCTYPE html><!--Indica al navegador q vamos a trabajar con html5-->
+<html lang="es"><!--trabaja con lenguaje español-->
 	<head>
-		<meta charset='utf-8'>
-		<link rel="stylesheet" href="stylesheet3.css">
+		<meta charset='utf-8'><!--Permite anclar nuestro sitio web a la barra de tareas de windows. El charset da a entender q explorer (navegador) utilizará acentos, debería decir tildes-->
+		<link rel="stylesheet" href="stylesheet2.css">
+		<link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+		
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="scriptPrincipal2.js"></script>
 	</head>
-		<body>
-			<div id='reloj'>
-			<embed src=http://flash-clocks.com/free-flash-clocks-blog-topics/free-flash-clock-34.swf style="position: fixed; top: 0px; right: 0px;" alt=""  width=200 heigh=200 wmode=transparent type=application/x-shockwave-flash></embed>
-			
-			</div> 
-				<div id='inicioWeb'>
-					<header>
-					<hgroup>
-					
-						<h1>New course Fab Academy-UTEC</h1>
-						<p>by Paul Sánchez</p>
-						<input  type="button" value="Find out!" style='background:url("http://u.jimdo.com/www54/o/s943f2545d0f557c7/img/i3f44df776caf3add/1369145191/std/image.gif");' onclick="window.open('index.html')"/>
-					</hgroup>
+	<body>
+		<left> <embed src=http://flash-clocks.com/free-flash-clocks-blog-topics/free-flash-clock-34.swf style="position: fixed; top: 0px; right: 0px;" alt=""  width='200px' height='200px' wmode=transparent type=application/x-shockwave-flash></embed></left>
+		<div id='contenido'><!--Son agrupaciones y se utilizan para definir un espacio en la página y colocarle estilos con CSS-->
+			<header><!--Pueden ver múltiples header, aquí estamos utilizando uno solo-->
+				<hgroup><!--Sirve para diferenciar al buscador y nos puedan encontrar, es así como se diferencia con h1, h2, h3, etc.-->
+					<h1>Paul Martín Sánchez Pulido</h1>
+						
+							
+							
+						
+				</hgroup>
+				<nav id="navigation"><!--Para colocar botoneras en tu pag web-->
+					<ul><!--lista ordenada-->
+						<li><a href='Inicio.html'>Home</a></li>
+						<li><a href='Tutoriales2.html'>Perfil</a></li>
+						<li><a href='Contacto2.html'>Tareas</a></li>
+						<li><a href='Proyecto.html'>Proyecto</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section><!--Indica a los buscadores que es una sección aparte de la página, sirve como complemento para q nos encuentren tmbn en la internet.-->
+				<div id='textoPr'> <!--Para no colocar estilos al section, solo al div-->
+					<article>
+						<hgroup>
+							<div id="mensajeB">
+							<p> Bienvenido a la página de Paul Sánchez</p>
+							</div>
+						</hgroup>
+						
+					</article>
+					<aside>
+						<a href="https://www.facebook.com/paul.sanchezpulido"><img src="http://www.3d-box-shot.com/3d-box-shot-animated-gifs/animated-gif-images/facebook.gif" width="75px" heigh="75px"/></a>
+						<div id='utec'>
+						<a href="http://www.utec.edu.pe/Utec.aspx"><img src="http://parq001.archdaily.net/wp-content/uploads/2013/02/5113c3d6b3fc4b2524000001_muestra-con-las-propuestas-para-el-concurso-utec-modelos-para-una-nueva-ciudad-hasta-el-28-de-febrero-lima_concurso_utec.jpg" width="100px" heigh="75px" /></a>
+						</div>
+						<div id='piano'>
+						<a href="http://www.youtube.com/watch?v=I4aOQbfC99g"><img src="https://www.seoclerk.com/pics/132792-1ovEex1390006466.jpg" width="90px" heigh="90px" /></a>
+						</div>
+					</aside>
 				</div>
-				
-						
+				<div id='texto'>
+					<p> </p>
+				</div>
+			</section>
+		</div>
+		<footer>
+			<canvas id='miCanvas'>
 
-						
-					
-				</header>
-			
-		</body>
-	</html>
+			</canvas>
+		</footer>
+	</body>
+</html>
